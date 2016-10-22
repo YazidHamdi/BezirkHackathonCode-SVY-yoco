@@ -44,7 +44,7 @@ import javafx.stage.Stage;
 
 public class WorkbenchPane extends BorderPane {
     private static final Logger logger = LoggerFactory.getLogger(WorkbenchPane.class);
-    private static final String id = "SVY-yoco";
+    private static final String id = "SVY-YOCO";
 
     private final Bezirk bezirk;
     private boolean isShowingWorkbenchLabel = true;

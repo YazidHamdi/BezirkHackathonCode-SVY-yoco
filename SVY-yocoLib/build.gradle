@@ -34,3 +34,16 @@ dependencies {
 
     compile(group: 'com.bezirk', name: 'java-zirk-proxy', version: '3.0.1')
 }
+
+task deleteJar(type:Delete){
+    delete 'libs/SVY-yocoLib.jar'
+}
+
+task createJar(type:Copy){
+    from('build/intermediates/bundles/release/')
+    into('libs/')
+    include('classes.jar')
+    rename('classes.jar', 'SVY-yocoLib.jar')
+}
+
+createJar.dependsOn(deleteJar, build)
