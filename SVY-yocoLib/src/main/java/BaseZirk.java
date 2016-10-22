@@ -8,6 +8,10 @@ import com.bezirk.middleware.core.proxy.Config;
 
 public class BaseZirk {
     private Bezirk bezirk;
+    public Bezirk getBezirk() {
+        return bezirk;
+    }
+
     public String zirkId;
 
     public BaseZirk() {
