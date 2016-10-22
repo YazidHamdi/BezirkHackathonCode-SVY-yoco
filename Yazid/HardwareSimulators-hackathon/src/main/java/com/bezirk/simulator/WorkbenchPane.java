@@ -44,7 +44,7 @@ import javafx.stage.Stage;
 
 public class WorkbenchPane extends BorderPane {
     private static final Logger logger = LoggerFactory.getLogger(WorkbenchPane.class);
-
+    private static final String id = "SVY-yoco";
 
     private final Bezirk bezirk;
     private boolean isShowingWorkbenchLabel = true;
@@ -55,7 +55,7 @@ public class WorkbenchPane extends BorderPane {
 
     public WorkbenchPane() throws Exception {
 
-        String groupID = ""; //Set a hard-to-guess groupID for your group
+        String groupID = id; //Set a hard-to-guess groupID for your group
 
 
         if (groupID == "") {
