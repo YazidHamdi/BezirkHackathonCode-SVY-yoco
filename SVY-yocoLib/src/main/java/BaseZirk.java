@@ -10,7 +10,11 @@ public class BaseZirk {
     private Bezirk bezirk;
     public String zirkId;
 
+    public BaseZirk() {
+    }
+
     /**
+
      *
      * @param zirkName Name of this Zirk
      */
