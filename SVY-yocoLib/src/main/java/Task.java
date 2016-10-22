@@ -7,7 +7,11 @@ public class Task {
     private static int lastId = 0;
 
     //Task id
-    public int id;
+    private int id;
+    public int getId(){
+
+        return id;
+    }
 
     //Person responsible for the task
     public Person assignedTo;

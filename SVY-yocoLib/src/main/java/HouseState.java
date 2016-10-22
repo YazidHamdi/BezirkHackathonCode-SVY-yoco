@@ -11,7 +11,11 @@ public class HouseState {
     //Tasks
     public  List<Task> Tasks;
 
+    public HouseState() {
+    }
+
     /**
+
      *
      * @param people People
      * @param tasks Tasks

@@ -6,5 +6,7 @@
  * Used to communicate from beacon to phone, and from phone to central hub
  */
 public class AliveEvent extends BaseEvent {
-
+    public AliveEvent(String senderId, String receiverId) {
+        super(senderId, receiverId);
+    }
 }
