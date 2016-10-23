@@ -12,7 +12,7 @@ public class CentralHubZirk extends BaseZirk{
         super(zirkName);
         List<Person> people = new ArrayList<Person>();
         for(String name:new String[]{"Vignesh", "Yazid"}){
-            people.add(new Person(name.toLowerCase()+"-phone",name,PersonStatus.out));
+            people.add(new Person(name.toLowerCase()+"phone",name,PersonStatus.out));
         }
         List<Task> tasks = new ArrayList<Task>();
         houseState = new HouseState(people,tasks);
