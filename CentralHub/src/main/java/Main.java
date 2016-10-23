@@ -22,6 +22,7 @@ public class Main {
             @Override
             public void receiveEvent(Event event, ZirkEndPoint sender) {
                 //Check if this event is of interest
+                System.out.println("Yolo");
                 if (event instanceof AliveEvent) {
                     final AliveEvent aliveEvent = (AliveEvent) event;
                     //do something in response to this event
@@ -32,6 +33,8 @@ public class Main {
             });
 
         centralHub.getBezirk().subscribe(aliveEvents);
+
+        System.out.println("Listening has started");
 
         //Sending loop
         Timer timer = new Timer();

@@ -7,7 +7,7 @@ import com.bezirk.middleware.java.proxy.BezirkMiddleware;
 import com.bezirk.middleware.core.proxy.Config;
 
 public class BaseZirk {
-    private Bezirk bezirk;
+    private final Bezirk bezirk;
     public Bezirk getBezirk() {
         return bezirk;
     }
@@ -15,6 +15,7 @@ public class BaseZirk {
     public String zirkId;
 
     public BaseZirk() {
+        this("GenericName");
     }
 
     /**
