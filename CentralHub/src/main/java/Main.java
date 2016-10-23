@@ -22,11 +22,11 @@ public class Main {
             @Override
             public void receiveEvent(Event event, ZirkEndPoint sender) {
                 //Check if this event is of interest
-                System.out.println("Yolo");
+                System.out.println("Entered reception");
                 if (event instanceof AliveEvent) {
                     final AliveEvent aliveEvent = (AliveEvent) event;
                     //do something in response to this event
-                    if(aliveEvent.ReceiverId() == CentralHubId)
+                    if(aliveEvent.ReceiverId().equals(CentralHubId))
                         System.out.println("Alive received from: "+aliveEvent.SenderId());
                     }
                 }
