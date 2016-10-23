@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26c42b51-0de1-4d73-a7a3-0815cd46b91c" name="Default" comment="Created getter for BaseZirk bezirk property">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CentralHub/src/main/java/CentralHubZirk.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CentralHub/src/main/java/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/SVY-yocoLib.iml" afterPath="$PROJECT_DIR$/.idea/modules/SVY-yocoLib.iml" />
+    <list default="true" id="26c42b51-0de1-4d73-a7a3-0815cd46b91c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/BaseZirk.java" afterPath="$PROJECT_DIR$/src/main/java/BaseZirk.java" />
     </list>
     <ignored path="SVY-yocoLib.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -853,7 +845,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477176804190</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created getter for BaseZirk bezirk property">
+      <created>1477179652263</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1477179652263</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
