@@ -23,7 +23,7 @@ public class BaseZirk {
      * @param zirkName Name of this Zirk
      */
     public BaseZirk (String zirkName) {
-        Config config = new Config.ConfigBuilder().setGroupName("SVY-YOCO").create();
+        Config config = new Config.ConfigBuilder().setGroupName("SVYYOCO").create();
         BezirkMiddleware.initialize(config);
         bezirk = BezirkMiddleware.registerZirk(zirkName);
 
