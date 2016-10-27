@@ -1,5 +1,5 @@
 # BezirkHackathonCode-SVY-yoco
-Team SVY-yoco code for the MSE Bezirk hackathon
+Team SVY-yoco code for the [Bezirk MSE hackathon](http://developer.bezirk.com/documentation/MSE_hackathon.php)
 
 Bezirk API [here](http://developer.bezirk.com/documentation/intro.php)
 ### Contents
